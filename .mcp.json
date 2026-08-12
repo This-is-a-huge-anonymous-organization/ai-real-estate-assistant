@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "midscene-web-bridge": {
+      "command": "npx",
+      "args": ["-y", "@midscene/web-bridge-mcp@1.9.6"],
+      "env": {
+        "MIDSCENE_MODEL_NAME": "claude-sonnet-5",
+        "MIDSCENE_API_KEY": "${MIDSCENE_API_KEY}"
+      }
+    }
+  }
+}
